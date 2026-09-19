@@ -1,10 +1,15 @@
 {
   "name": "csv-sniff",
   "version": "1.0.0",
-  "description": "Sniff a CSV sample: delimiter, quote, line ending, header presence — with a confidence and the reasons. Zero dependencies.",
+  "description": "Sniff a CSV sample: delimiter, quote, line ending, header presence \u2014 with a confidence and the reasons. Zero dependencies.",
   "license": "MIT",
   "type": "module",
   "main": "src/index.js",
-  "scripts": { "test": "node --test test/" },
-  "repository": { "type": "git", "url": "https://github.com/michaelcho87/csv-sniff" }
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelcho87/csv-sniff"
+  }
 }
